@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Catch Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+  <h2 class="instruc">INSTRUCTIONS</h2>
+  <div class="instructions hidden">
+    <ul>
+    <li>ON Laptop: Press Enter to Start, On Touch Screens: Click on the Enter word on Screen</li>
+    <li>Click on the button that glows and remember the sequence of the glowing lights</li>
+    <li>Make sure the sound is On for better Experience</li>
+    <li>Use either the Keyboard button Q/W/A/S, while on keyboard or directly click on the screen with Mouse/touch</li>
+    <li>To pass a level enter the Current Sequence of the Glows from the Start</li>
+  </ul>
+  <button onclick=toggleHidden()>Close X</button>
+</div>
+  <h1 id="level-title">Press Enter to Start</h1>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+        <div class="keys">Q</div>
+      </div>
+
+      <div type="button" id="red" class="btn red">
+       <div class="keys"> A</div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+        <div class="keys">W</div>
+      </div>
+
+      <div type="button" id="blue" class="btn blue">
+       <div class="keys">S</div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./game..js" ></script>
+
+</body>
+
+</html>

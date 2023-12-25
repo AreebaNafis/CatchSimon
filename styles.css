@@ -1,0 +1,103 @@
+body {
+  /* text-align: center; */
+  width: 100vw;
+  height: 100vh;
+  background-color: #011F3F;
+  padding: 0%;
+}
+.instructions{
+  background-color: rgb(176, 88, 47);
+  border-radius: 2%;
+  box-shadow: 1px 2px rgb(81, 42, 14) ;
+  position: absolute;
+  text-align: center;
+  width: 99vw;
+  height: 99vh;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  ul{
+    list-style:circle;
+    padding-left: 0%;
+  }
+  button{
+    background-color: #ce0e0ef7;
+    border-radius: 2%;
+    align-self: center;
+  }
+}
+.hidden{
+  display: none;
+ 
+}
+
+
+h2{
+  top: 10px;
+  position: absolute;
+  font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+  font-size: 1rem;
+  margin: 1%;
+}
+
+#level-title {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btn {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+.keys{
+
+font-family: 'Playfair Display', serif;
+font-size:xx-large;
+}
+
+.game-over {
+  background-color: rgb(160, 92, 92);
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(174, 115, 115);
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
